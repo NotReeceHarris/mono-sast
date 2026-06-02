@@ -1,0 +1,9 @@
+services:
+
+  mono-sast:
+    working_dir: /app
+    entrypoint: ["python", "-u", "src/main.py"]
+    environment:
+      PYTHONPATH: /app/src
+    volumes:
+      - .:/app

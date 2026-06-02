@@ -1,0 +1,9 @@
+services:
+
+  mono-sast:
+    image: mono-sast
+    build:
+      context: .
+      dockerfile: dockerfile
+    volumes:
+      - ${TARGET_DIR:?Set TARGET_DIR to the path you want to scan}:/target:ro

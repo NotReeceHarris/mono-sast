@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "mono-sast"
+version = "0.1.0"
+description = "A static application security testing (SAST) tool that integrates multiple open-source SAST tools and provides a unified interface for scanning and reporting vulnerabilities in codebases."
+authors = [
+    { name="Reece Harris", email="me@reeceharris.net" }
+]
+dependencies = [
+    "xmltodict"
+]
