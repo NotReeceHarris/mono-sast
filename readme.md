@@ -1,4 +1,4 @@
-![mono-sast](https://s6.imgcdn.dev/YdTyFy.png)
+# mono-sast
 
 mono-sast (*monolithic static application security testing tool*) is a monolithic tool that runs multiple open-source SAST scanners against your codebase and normalises the output into various formats, fully configurable to support native tool configs. 
 
